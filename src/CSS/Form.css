@@ -1,0 +1,112 @@
+.flex {
+    display: flex;
+    /* align-items: center; */
+}
+
+.formContainer {
+    padding: 40px;
+    /* background-color: red; */
+    width: 40%;
+    margin-inline: auto;
+    margin-block: 30px;
+}
+.formContainer h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+section {
+    width: 100%;
+    align-items: start;
+    flex-direction: column;
+    
+}
+section label{
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"]
+{
+    margin-right: 10px;
+}
+input[type="date"]{
+    margin-left: 10px;
+    width: 150px;
+    height: 25px;
+}
+.genc{
+    margin-block: 10px;
+}
+
+label{
+    font-size: 1rem;
+}
+.heading{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.heading::before{
+
+    content: " * ";
+    color: red;
+}
+
+
+
+
+
+
+
+
+/* 
+.sunBtn{
+    margin-top: 10px;
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 8px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.sunBtn::before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.sunBtn:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+ */

@@ -1,0 +1,62 @@
+table {
+    width: 80%;
+    margin-inline: auto;
+    /* border: 1px solid black */
+}
+
+thead th {
+    border: 1px solid black;
+    background-color: rgb(246, 207, 207);
+    height: 20px;
+    padding-block: 10px;
+}
+
+tbody td {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(250, 241, 241);
+    height: 20px;
+    padding-block: 10px;
+    min-width:  10%;
+
+}
+
+thead,
+tbody {
+    width: 80%;
+
+}
+
+
+
+
+.tabBtn {
+    margin-right: 10px;
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.tabBtn:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.tabBtn:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
